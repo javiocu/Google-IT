@@ -31,3 +31,21 @@ print(even_numbers(25))   # Should print 13
 print(even_numbers(144))  # Should print 73
 print(even_numbers(1000)) # Should print 501
 print(even_numbers(0))    # Should print 1
+
+
+
+def groups_per_user(group_dictionary = dict):
+	user_groups = {}
+	# Go through group_dictionary
+	for grupo, lista_personas in group_dictionary.items() :
+   print(lista_personas)
+      for persona in lista_personas :
+        print(persona)	
+	
+			# Now add the group to the the list of
+# groups for this user, creating the entry
+# in the dictionary if necessary
+
+print(groups_per_user({"local": ["admin", "userA"],
+		"public":  ["admin", "userB"],
+		"administrator": ["admin"] }))
