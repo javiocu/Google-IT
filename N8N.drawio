@@ -61,7 +61,7 @@
           <mxGeometry x="669" y="165" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jdDbVD5xY_cFmAnzBWXt-29" value="Chat telegram actualización de estado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="39" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jdDbVD5xY_cFmAnzBWXt-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdDbVD5xY_cFmAnzBWXt-30" target="jdDbVD5xY_cFmAnzBWXt-32">
           <mxGeometry relative="1" as="geometry" />
@@ -69,7 +69,7 @@
         <mxCell id="jdDbVD5xY_cFmAnzBWXt-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdDbVD5xY_cFmAnzBWXt-30" target="jdDbVD5xY_cFmAnzBWXt-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jdDbVD5xY_cFmAnzBWXt-30" value="Actualización de estado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jdDbVD5xY_cFmAnzBWXt-30" value="Actualización de estado por correo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="39" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jdDbVD5xY_cFmAnzBWXt-32" value="Extraer ID y actualizar estado, por correo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
