@@ -16,7 +16,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jdDbVD5xY_cFmAnzBWXt-9" value="Extracción de datos interesantes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="239" y="30" width="140" height="330" as="geometry" />
+          <mxGeometry x="239" y="30" width="140" height="360" as="geometry" />
         </mxCell>
         <mxCell id="jdDbVD5xY_cFmAnzBWXt-10" value="Empresa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jdDbVD5xY_cFmAnzBWXt-9">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -48,6 +48,9 @@
         <mxCell id="jdDbVD5xY_cFmAnzBWXt-23" value="Estado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;miterlimit=6;" vertex="1" parent="jdDbVD5xY_cFmAnzBWXt-9">
           <mxGeometry y="300" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="jdDbVD5xY_cFmAnzBWXt-31" value="ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;miterlimit=6;" vertex="1" parent="jdDbVD5xY_cFmAnzBWXt-9">
+          <mxGeometry y="330" width="140" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="jdDbVD5xY_cFmAnzBWXt-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdDbVD5xY_cFmAnzBWXt-25" target="jdDbVD5xY_cFmAnzBWXt-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -56,6 +59,24 @@
         </mxCell>
         <mxCell id="jdDbVD5xY_cFmAnzBWXt-27" value="Notificación a telegram bot" style="whiteSpace=wrap;html=1;fontStyle=0;startSize=30;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="669" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdDbVD5xY_cFmAnzBWXt-29" value="Chat telegram actualización de estado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdDbVD5xY_cFmAnzBWXt-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdDbVD5xY_cFmAnzBWXt-30" target="jdDbVD5xY_cFmAnzBWXt-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdDbVD5xY_cFmAnzBWXt-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jdDbVD5xY_cFmAnzBWXt-30" target="jdDbVD5xY_cFmAnzBWXt-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdDbVD5xY_cFmAnzBWXt-30" value="Actualización de estado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="39" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdDbVD5xY_cFmAnzBWXt-32" value="Extraer ID y actualizar estado, por correo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="249" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdDbVD5xY_cFmAnzBWXt-36" value="Si no puede actualizarlo solo, mandar mensaje por telegram solicitando cambios manuales" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="249" y="580" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
